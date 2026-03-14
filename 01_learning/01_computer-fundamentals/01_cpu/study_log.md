@@ -26,3 +26,32 @@ I already learned this part in the course "Computer Architecture" at university,
 ### Resources used
 ![Video about CPU](https://img.youtube.com/vi/FZGugFqdr60/0.jpg)  https://www.youtube.com/watch?v=FZGugFqdr60
 
+## ??
+
+### Topics studied
+
+-Instructions & Programs
+
+### What I learned
+??
+
+### Thoughts
+??
+
+### Resources used
+![Video about CPU](https://img.youtube.com/vi/zltgXvg6r3k/0.jpg)  https://www.youtube.com/watch?v=zltgXvg6r3k
+
+## ??
+
+### Topics studied
+
+-Logic & Arithmetic Unit
+
+### What I learned
+??
+
+### Thoughts
+??
+
+### Resources used
+![Video about CPU](https://img.youtube.com/vi/1I5ZMmrOfnA/0.jpg)  https://www.youtube.com/watch?v=1I5ZMmrOfnA
