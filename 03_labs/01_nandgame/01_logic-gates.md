@@ -22,3 +22,10 @@ So, with input 0 a NAND 0-0 the output was 1, and with input 1 the output is 0.
 
 ![level 2](images/01_02.png)
 
+# LEVEL 3 - AND
+
+Here I have to create and AND, I have an inverter and a NAND.
+So it is easy, I know NAND is AND NOT, and with an inverter I get AND NOT NOT, which is AND.
+
+![level 3](images/01_03.png)
+
