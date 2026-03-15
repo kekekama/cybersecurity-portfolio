@@ -29,3 +29,9 @@ So it is easy, I know NAND is AND NOT, and with an inverter I get AND NOT NOT, w
 
 ![level 3](images/01_03.png)
 
+# LEVEL 4 - OR
+
+Ok, to do this level I first need to find the unique situation where the output is different (so it is easier to do), and this case is a = 0, b = 0 and out = 0, the other cases the output is 1.
+The logic gates work better if they are set to 1, so I first inverted the inputs, after that I used an AND that sets the function to True, and then I inverted the result again.
+
+![level 4](images/01_04.png)
