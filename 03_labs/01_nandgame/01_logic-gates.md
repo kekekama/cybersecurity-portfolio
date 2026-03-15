@@ -14,3 +14,11 @@ Now it works.
 
 ![level 1](images/01_01.png)
 
+# LEVEL 2 - INVERT
+
+This level talks about how to create an inverter component.
+It is simpler, I just have to connected the both inputs of the NAND gate to a single input.
+So, with input 0 a NAND 0-0 the output was 1, and with input 1 the output is 0.
+
+![level 2](images/01_02.png)
+
