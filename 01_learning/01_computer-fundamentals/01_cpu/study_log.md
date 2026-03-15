@@ -26,32 +26,86 @@ I already learned this part in the course "Computer Architecture" at university,
 ### Resources used
 ![Video about CPU](https://img.youtube.com/vi/FZGugFqdr60/0.jpg)  https://www.youtube.com/watch?v=FZGugFqdr60
 
-## ??
+## 15/03/2026
 
 ### Topics studied
 
 -Instructions & Programs
 
 ### What I learned
-??
+**Ram** is composed by Address and Data (the first 4-bits are the OPCODE, the last ones specify an address or registers).
+
+**Jump** is an instruction that changes the order or skip instructions, it can also be used to create a cycle .
+There is also Jump Negative, which only works if in the ALU the negative flag is set to true; this is an example of conditional jump.
+There are also Jump If Equal and Jump If Greater
+
+**Halt** is an instruction that stops the CPU from executing other instructions.
 
 ### Thoughts
-??
+Easy
 
 ### Resources used
 ![Video about CPU](https://img.youtube.com/vi/zltgXvg6r3k/0.jpg)  https://www.youtube.com/watch?v=zltgXvg6r3k
 
-## ??
 
 ### Topics studied
 
--Logic & Arithmetic Unit
+-Logic & Arithmetic Unit (ALU)
 
 ### What I learned
-??
+The ALU is composed of an Arithmetic Unit and a Logic Unit.
+
+XOR (SUM)
+0 + 0 = 0
+
+1 + 0 = 1
+
+0 + 1 = 1
+
+1 + 1 = 0
+
+AND (CARRY)
+0 + 0 = 0
+
+1 + 0 = 0
+
+0 + 1 = 0
+
+1 + 1 = 1
+
+Sum and Carry create the Half Adder;
+![Here just a full adder](images/full_adder.png)
+![Here a 8-bit ripple carry adder](images/8_bit_ripple_carry_adder.png)
+
+The last carry is called overflow.
+
+The Logic Unit performs logical operations such as AND, OR and NOT.
+
+**Finally the ALU has**
+
+- 2 input (8 bits) A and B;
+
+
+- the operation code (Opcode, 4 bits):
+
+1000 = add
+
+1100 =subtract;
+
+
+- the flags:
+
+Overflow (bit)
+
+Zero (bit)
+
+Negative (bit);
+
+
+- the output (8 bits).
 
 ### Thoughts
-??
+Now I could try to do the first minigame of NandGame, I think it is easier to undestand the circuits.
 
 ### Resources used
 ![Video about CPU](https://img.youtube.com/vi/1I5ZMmrOfnA/0.jpg)  https://www.youtube.com/watch?v=1I5ZMmrOfnA
