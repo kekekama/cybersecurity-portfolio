@@ -35,3 +35,15 @@ Ok, to do this level I first need to find the unique situation where the output 
 The logic gates work better if they are set to 1, so I first inverted the inputs, after that I used an AND that sets the function to True, and then I inverted the result again.
 
 ![level 4](images/01_04.png)
+
+# LEVEL 5 - XOR
+
+The request here is that the output is 1 when the inputs are different.
+So I needed to create 2 conditions.
+The first one is when a=0 and b=1; to do that I had to invert b and then use AND to set the condition.
+For the other one a=1 and b=0,I inverted the inputs.
+Finally I use OR gate because I have one condition or the other one.
+
+![level 5](images/01_05.png)
+
+
