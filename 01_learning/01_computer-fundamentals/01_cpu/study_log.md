@@ -1,4 +1,4 @@
-#CPU study log
+# CPU study log
 
 ## 14/03/2026
 
