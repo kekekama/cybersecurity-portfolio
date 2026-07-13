@@ -41,6 +41,7 @@ It chooses a process or thread from the ready state and assigns the CPU to it.
 Each process or thread can use the CPU for a shr priod of time called **time slice/time quantum**.
 
 **Concurrency** = only one CPU core  Core1: A-->B-->C-->A
+
 **Parallelism** = multiple CPU cores Core1: Thread A; Core2: Thread B
 
 ## Context Switch
