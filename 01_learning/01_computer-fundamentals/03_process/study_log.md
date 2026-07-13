@@ -34,7 +34,30 @@ The threads use the resources of process to execute the instructions.
 A simple program has a principle thread, a complex program multiples.
 It is better to have multiples threads than multiples process because they easily share memories and resources.
 
-Different threads share codes, global variables, heap, open files, the resources of process.
-Every thread has own stack, own CPU registers, own program counter.
+## 12/07/2026
 
+### Topics studied
 
+-Scheduler
+
+### What I learned
+The scheduler decides what process or thread could use CPU and how long.
+On the computer the programs seem working at the same time, but it isn't.
+The scheduler choose a thread on ready condition, after a little break it could stops and assigns the CPU to another thread.
+
+If the CPU has only one core the threads alternate witch each other, it called concurrency
+core 1: a --> b --> c --> a --> b
+If there are many core, the threads could run at the same time, this is parallelism
+core 1: thread a
+core 2: thread b
+
+the time while a thread runs is called time slice or time quantum.
+
+## 13/07/2026
+
+### Topics studied
+
+-Context Switch
+
+### What I learned
+...
